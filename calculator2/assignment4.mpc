@@ -1,0 +1,32 @@
+// $Id: assignment4.mpc 378 2010-02-07 22:09:38Z hillj $
+
+project (assignment4) {
+  exename = assignment4
+  install = .
+
+  Source_Files {
+    driver.cpp
+    Add_Expr_Node.cpp
+    Binary_Expr_Node.cpp
+    Calculator.cpp
+    Divide_Expr_Node.cpp
+    Expr_Builder.cpp
+    Expr_Node.cpp
+    Expr_Node_Visitor.cpp
+    Expr_Tree_Builder.cpp
+    Eval_Expr_Tree.cpp
+    Mod_Expr_Node.cpp
+    Multiplication_Expr_Node.cpp
+    Number_Expr_Node.cpp
+    Subtract_Expr_Node.cpp
+  }
+
+  Template_Files {
+    Array_Base.cpp
+    Array.cpp
+    Expr_Iterator.cpp
+    Fixed_Array.cpp
+    Stack.cpp
+    Queue.cpp
+  }
+}
